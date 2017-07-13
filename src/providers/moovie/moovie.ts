@@ -16,7 +16,7 @@ export class MoovieProvider {
   }
 
   getLatesMovies(){
-   return this.http.get(this.baseApiPath + "/tv/popular?api_key=d573f55063b8d3ca1a20764267ee1cb7");
+   return this.http.get(this.baseApiPath + "/tv/popular?api_key=sua api_key");
   }
 
 }
